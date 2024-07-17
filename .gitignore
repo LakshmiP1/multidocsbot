@@ -41,4 +41,5 @@ MANIFEST
 *.spec
 
 **/bin/
+/research/data
 
