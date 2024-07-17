@@ -1,0 +1,14 @@
+langchain_community
+unstructured[pdf]
+unstructured[txt]
+pypdf
+langchain_core
+langchain_openai
+chromadb
+sentence-transformers
+langchain
+python-dotenv
+
+
+
+-e .

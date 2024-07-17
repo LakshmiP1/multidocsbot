@@ -1,0 +1,16 @@
+
+1. Model accuracy is not of great importance in imbalanced datasets. In those cases, we look at other performance metrics like sensitivity, specificity , f1-score etc.
+
+2. Spam detection, stock market crash are examples where false positives are important.
+ 
+Reason being, its more problematic when model says your email is a spam but in reality its not. So you will miss out on an imp one. 
+
+Also, stock market crash, where the model predicted that the market is not gonna crash, 
+investor invests in loads of money but it actually crashes and then the investor looses all of the money invested.
+
+False negative in stock market crash is a lost opportunity.
+
+3. Examples where False negative is important are healthcare and risk compliance/sanction models.
+ When model says the person doesn't have cancer, but in reality the person has cancer. So the person will miss out on imp medications. 
+Also, risk models like customer risk ranking model, where the model predicts the customer to be non-risky but actually the customer is risky. 
+And the consequence being, the bank allows such customers to do business with them and end up in a mess where they perform suspicious activity like money laundering.
