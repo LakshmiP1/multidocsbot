@@ -40,5 +40,5 @@ MANIFEST
 *.manifest
 *.spec
 
+**/bin/
 
-/bin/
